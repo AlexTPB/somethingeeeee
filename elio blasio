@@ -5,10 +5,10 @@ local Fling = true --// Recommended: true
 local FlingBlockInvisible = false --// Recommended: false (So you can see the flinging block)
 local HighlightFlingBlock = true --// Recommended: true
 local FlingHighlightColor = Color3.fromRGB(55,55,255) --// First is R, Second is G, Third is B
-
+local GunHatId
 
 -- // MAIN \\ --
-if GunHatId then
+
 local HAT_NAME = game:GetObjects("rbxassetid://"..tostring(GunHatId))[1].Name
 
 -- // Uses Mizt's bypass \\ --
@@ -811,4 +811,3 @@ swait()
 end
 end)
 anims()
-end
