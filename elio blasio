@@ -5,9 +5,6 @@ local Fling = true --// Recommended: true
 local FlingBlockInvisible = false --// Recommended: false (So you can see the flinging block)
 local HighlightFlingBlock = true --// Recommended: true
 local FlingHighlightColor = Color3.fromRGB(55,55,255) --// First is R, Second is G, Third is B
-local GunHatId
-
-
 
 
 -- // MAIN \\ --
