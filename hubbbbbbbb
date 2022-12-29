@@ -149,12 +149,12 @@ local plays = game.Players.LocalPlayer
     Name = "Copy FE Mech Hats to Clipboard",
     Callback = function()
       OrionLib:MakeNotification({
-        Name = "Copied Link to clipboard!",
+        Name = "Copied IDs to clipboard!",
         Content = "Wear the Hats!",
         Image = "rbxassetid://4483345998",
         Time = 4
       })
-      setclipboard("https://raw.githubusercontent.com/AlexTPB/somethingeeeee/main/fe%20mech.txt")
+      setclipboard("2492675286, 2493590711, 2493718915, 2499654059, 3963490791, 4381828509, 4819740796, 6445270994, 6494077172, 9350274205")
       end    
   })
   Tab:AddButton({
@@ -175,12 +175,12 @@ local plays = game.Players.LocalPlayer
     Name = "Copy FE Face Hats to Clipboard",
     Callback = function()
       OrionLib:MakeNotification({
-        Name = "Copied Link to clipboard!",
+        Name = "Copied IDs to clipboard!",
         Content = "Wear the Hats!",
         Image = "rbxassetid://4483345998",
         Time = 4
       })
-      setclipboard("https://raw.githubusercontent.com/AlexTPB/somethingeeeee/main/face%20hats")
+      setclipboard("5107524978, 62724852, 451220849, 48474294, 63690008, 62234425, 5107477345, 48474313")
       end    
   })
   Tab:AddButton({
@@ -201,12 +201,12 @@ local plays = game.Players.LocalPlayer
     Name = "Copy FE Bird Hats to Clipboard",
     Callback = function()
       OrionLib:MakeNotification({
-        Name = "Copied Link to clipboard!",
+        Name = "Copied IDs to clipboard!",
         Content = "Wear the Hats!",
         Image = "rbxassetid://4483345998",
         Time = 4
       })
-      setclipboard("https://raw.githubusercontent.com/AlexTPB/somethingeeeee/main/bird")
+      setclipboard("253151806")
       end    
   })
   Tab:AddButton({
@@ -227,12 +227,12 @@ local plays = game.Players.LocalPlayer
     Name = "Copy FE Finger V2 Hats to Clipboard",
     Callback = function()
       OrionLib:MakeNotification({
-        Name = "Copied Link to clipboard!",
+        Name = "Copied IDs to clipboard!",
         Content = "Wear the Hats!",
         Image = "rbxassetid://4483345998",
         Time = 4
       })
-      setclipboard("https://raw.githubusercontent.com/AlexTPB/somethingeeeee/main/finger%20v2%20hats")
+      setclipboard("6470135113")
       end    
   })
   Tab:AddButton({
@@ -252,12 +252,12 @@ local plays = game.Players.LocalPlayer
     Name = "Copy FE Dog Hats to Clipboard",
     Callback = function()
       OrionLib:MakeNotification({
-        Name = "Copied Link to clipboard!",
+        Name = "Copied IDs to clipboard!",
         Content = "Wear the Hats!",
         Image = "rbxassetid://4483345998",
         Time = 4
       })
-      setclipboard("https://raw.githubusercontent.com/AlexTPB/somethingeeeee/main/dog%20hats")
+      setclipboard("48474313, 62724852, 451220849, 48474294, 4047554959, 63690008, 62234425")
       end    
   })
   Tab:AddButton({
@@ -278,12 +278,12 @@ local plays = game.Players.LocalPlayer
     Name = "Copy FE Friend Hats to Clipboard",
     Callback = function()
       OrionLib:MakeNotification({
-        Name = "Copied Link to clipboard!",
+        Name = "Copied IDs to clipboard!",
         Content = "Wear the Hats!",
         Image = "rbxassetid://4483345998",
         Time = 4
       })
-      setclipboard("https://raw.githubusercontent.com/AlexTPB/somethingeeeee/main/friend%20hats")
+      setclipboard("48474313, 62724852, 451220849, 48474294, 4047554959, 63690008, 62234425")
       end    
   })
   Tab:AddButton({
@@ -304,12 +304,12 @@ local plays = game.Players.LocalPlayer
     Name = "Copy FE Hang Doll Hats to Clipboard",
     Callback = function()
       OrionLib:MakeNotification({
-        Name = "Copied Link to clipboard!",
+        Name = "Copied IDs to clipboard!",
         Content = "Wear the Hats!",
         Image = "rbxassetid://4483345998",
         Time = 4
       })
-      setclipboard("https://raw.githubusercontent.com/AlexTPB/somethingeeeee/main/hang%20doll%20hats")
+      setclipboard("6909084751, 48474294, 48474313, 62234425, 62724852, 63690008, 451220849, 617605556, 1182540268")
       end  
   })
   Tab:AddButton({
@@ -330,12 +330,12 @@ local plays = game.Players.LocalPlayer
     Name = "Copy FE Zeon Glitcher Hats to Clipboard",
     Callback = function()
       OrionLib:MakeNotification({
-        Name = "Copied Link to clipboard!",
+        Name = "Copied IDs to clipboard!",
         Content = "Wear the Hats!",
         Image = "rbxassetid://4483345998",
         Time = 4
       })
-      setclipboard("https://raw.githubusercontent.com/AlexTPB/somethingeeeee/main/zeon%20glitcher%20hats")
+      setclipboard("3033908130, 3398308134, 3409612660, 3438342658, 3822880197, 3940375351, 4094878701, 4391384843, 4584042059, 4622081834")
       end  
   })
   Tab:AddButton({
@@ -356,12 +356,12 @@ local plays = game.Players.LocalPlayer
     Name = "Copy FE Zombie Hats to Clipboard",
     Callback = function()
       OrionLib:MakeNotification({
-        Name = "Copied Link to clipboard!",
+        Name = "Copied IDs to clipboard!",
         Content = "Wear the Hats!",
         Image = "rbxassetid://4483345998",
         Time = 4
       })
-      setclipboard("https://raw.githubusercontent.com/AlexTPB/somethingeeeee/main/zombie%20hats")
+      setclipboard("451220849, 62724852, 48474294, 63690008, 62234425, 376548738, 617605556")
       end  
   })
   Tab:AddButton({
@@ -377,6 +377,18 @@ local plays = game.Players.LocalPlayer
       wait(2)
         loadstring(game:HttpGet("https://raw.githubusercontent.com/AlexTPB/somethingeeeee/main/fe%20zombie"))()
       end    
+  })
+  Tab:AddButton({
+    Name = "Copy FE Block Rider Hats to Clipboard",
+    Callback = function()
+      OrionLib:MakeNotification({
+        Name = "Copied IDs to clipboard!",
+        Content = "Wear the Hats!",
+        Image = "rbxassetid://4483345998",
+        Time = 4
+      })
+      setclipboard("9350274205")
+      end  
   })
   Tab:AddButton({
     Name = "FE Block Rider - R6",
@@ -399,12 +411,12 @@ local plays = game.Players.LocalPlayer
     Name = "Copy FE Soldier AI Hats to Clipboard",
     Callback = function()
       OrionLib:MakeNotification({
-        Name = "Copied Link to clipboard!",
+        Name = "Copied IDs to clipboard!",
         Content = "Wear the Hats!",
         Image = "rbxassetid://4483345998",
         Time = 4
       })
-      setclipboard("https://raw.githubusercontent.com/AlexTPB/somethingeeeee/main/soldier%20ai%20hats")
+      setclipboard("6133544919, 7806887000, 48474313, 4391384843, 48474294, 62724852, 451220849, 63690008, 62234425")
       end    
   })
   Tab:AddButton({
@@ -425,12 +437,12 @@ local plays = game.Players.LocalPlayer
     Name = "Copy FE Dummy Hats to Clipboard",
     Callback = function()
       OrionLib:MakeNotification({
-        Name = "Copied Link to clipboard!",
+        Name = "Copied IDs to clipboard!",
         Content = "Wear the Hats!",
         Image = "rbxassetid://4483345998",
         Time = 4
       })
-      setclipboard("https://raw.githubusercontent.com/AlexTPB/somethingeeeee/main/dummy%20hats")
+      setclipboard("62724852, 48474294, 62234425, 63690008, 29532720")
       end    
   })
   Tab:AddButton({
@@ -451,12 +463,12 @@ local plays = game.Players.LocalPlayer
     Name = "Copy FE Floppa Shirt to Clipboard",
     Callback = function()
       OrionLib:MakeNotification({
-        Name = "Copied Link to clipboard!",
-        Content = "Wear the Hats!",
+        Name = "Copied ID to clipboard!",
+        Content = "Wear the Shirt!",
         Image = "rbxassetid://4483345998",
         Time = 4
       })
-      setclipboard("https://raw.githubusercontent.com/AlexTPB/somethingeeeee/main/floppashirt")
+      setclipboard("https://www.roblox.com/catalog/9582295098/floppashirt")
       end
   })
   Tab:AddButton({
@@ -477,12 +489,12 @@ local plays = game.Players.LocalPlayer
     Name = "Copy FE GhostRider Hats to Clipboard",
     Callback = function()
       OrionLib:MakeNotification({
-        Name = "Copied Link to clipboard!",
+        Name = "Copied IDs to clipboard!",
         Content = "Wear the Hats!",
         Image = "rbxassetid://4483345998",
         Time = 4
       })
-      setclipboard("https://raw.githubusercontent.com/AlexTPB/somethingeeeee/main/ghost%20hat")
+      setclipboard("5063566353, 5205483683")
       end
   })
   Tab:AddButton({
