@@ -99,7 +99,7 @@ if game.Players.LocalPlayer.UserId == 3043306439 or 212940700 or 392532956 or 35
   Tab:AddButton({
     Name = "HatHub V1",
     Callback = function()
-      loadstring(game:HttpGet("https://textbin.net/raw/n9s5fjeynu"))();
+      loadstring(game:HttpGet("https://pastebin.com/raw/1Cjz1RMH"))();
     end    
   })
   Tab:AddButton({
