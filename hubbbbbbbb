@@ -35,7 +35,7 @@ local plays = game.Players.LocalPlayer
       end)
   end
 
-if game.Players.LocalPlayer.UserId == 212940700 or 3043306439 or 392532956 then  
+if game.Players.LocalPlayer.UserId == 3043306439 or 212940700 or 392532956 then  
   local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
   if game.Players.LocalPlayer.UserId == 212940700 then
     OrionLib:MakeNotification({
@@ -404,6 +404,32 @@ if game.Players.LocalPlayer.UserId == 212940700 or 3043306439 or 392532956 then
         loadstring(game:HttpGet("loadstring(game:HttpGet(('https://pastefy.ga/N9lvZWl6/raw'),true))()"))()
       end    
   })
+  Tab:AddButton({
+    Name = "Copy FE Little People Hats to Clipboard",
+    Callback = function()
+      OrionLib:MakeNotification({
+        Name = "Copied IDs to clipboard!",
+        Content = "Wear the Hats!",
+        Image = "rbxassetid://4483345998",
+        Time = 4
+      })
+      setclipboard("48474313, 4246228452, 62724852, 451220849, 3409612660, 4094878701, 4047554959, 4489239608, 63690008, 62234425")
+      end    
+  })
+  Tab:AddButton({
+    Name = "FE Little People - R6",
+    Callback = function()
+      OrionLib:MakeNotification({
+        Name = "Loading Script..",
+        Content = "Please wait...",
+        Image = "rbxassetid://4483345998",
+        Time = 4
+      })
+      netless()
+      wait(2)
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/rouxhaver/scripts/main/FE%20little%20people.Lua"))()
+      end    
+  })
   local Section = Tab:AddSection({
     Name = "FE Paid Hats"
   })
@@ -618,6 +644,15 @@ if game.Players.LocalPlayer.UserId == 212940700 or 3043306439 or 392532956 then
       netless()
       wait(0.5)
       netlessr15()
+    end    
+  })
+  local Section = Tab:AddSection({
+    Name = "Reset"
+  })
+  Tab:AddButton({
+    Name = "Normal Reset char",
+    Callback = function()
+      game.Players.LocalPlayer.Character.Humanoid.Health = 0
     end    
   })
   local Section = Tab:AddSection({
