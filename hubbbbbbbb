@@ -53,7 +53,7 @@ if game.Players.LocalPlayer.UserId == 3043306439 or 212940700 or 392532956 then
     })
   end
   
-  local Window = OrionLib:MakeWindow({Name = "TPB - Script Hub | Beta v2.0.1A", HidePremium = false, SaveConfig = true, ConfigFolder = "TPB_Hub", IntroEnabled = true, IntroText = "TPB Hub"})
+  local Window = OrionLib:MakeWindow({Name = "TPB - Script Hub | Beta v2.0.1B", HidePremium = false, SaveConfig = true, ConfigFolder = "TPB_Hub", IntroEnabled = true, IntroText = "TPB Hub"})
   local Tab = Window:MakeTab({
     Name = "Hubs and GUIs",
     Icon = "rbxassetid://4483345998",
