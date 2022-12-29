@@ -656,6 +656,22 @@ if game.Players.LocalPlayer.UserId == 3043306439 or 212940700 or 392532956 then
     end    
   })
   local Section = Tab:AddSection({
+    Name = "Server"
+  })
+  Tab:AddButton({
+    Name = "Rejoin Server",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/1gtVMUz3"))()
+    end    
+  })
+  Tab:AddButton({
+    Name = "Server Hop",
+    Callback = function()
+      local module = loadstring(game:HttpGet"https://raw.githubusercontent.com/LeoKholYt/roblox/main/lk_serverhop.lua")()
+      module:Teleport(game.PlaceId)
+    end    
+  })
+  local Section = Tab:AddSection({
   Name = "Character Sliders"
   })
   Tab:AddButton({
@@ -730,19 +746,6 @@ if game.Players.LocalPlayer.UserId == 3043306439 or 212940700 or 392532956 then
   Tab:AddParagraph("Important People","Made by tpb.mp4#6086 | Credits to the Script Owners in this Hub | Inspired by Universal FE Hub | UI: Orion Library")
   local Section = Tab:AddSection({
     Name = "Config"
-  })
-  Tab:AddButton({
-    Name = "Rejoin Server",
-    Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/1gtVMUz3"))()
-    end    
-  })
-  Tab:AddButton({
-    Name = "Server Hop",
-    Callback = function()
-      local module = loadstring(game:HttpGet"https://raw.githubusercontent.com/LeoKholYt/roblox/main/lk_serverhop.lua")()
-      module:Teleport(game.PlaceId)
-    end    
   })
   local Section = Tab:AddSection({
     Name = "UI"
