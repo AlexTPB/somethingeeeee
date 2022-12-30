@@ -35,7 +35,7 @@ local plays = game.Players.LocalPlayer
       end)
   end
 
-if game.Players.LocalPlayer.UserId == 3043306439 or 212940700 or 392532956 or 3569856153 then  
+if game.Players.LocalPlayer.UserId == 3043306439 or 212940700 or 392532956 or 3569856153 or 3952145379 then
   local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
   if game.Players.LocalPlayer.UserId == 212940700 then
     OrionLib:MakeNotification({
