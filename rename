@@ -90,7 +90,7 @@ end
 --wall1 button
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "PlasticBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-381.995209, -42.5499878, -100.606903, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-390.466675, -192.600037, -119.60582, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
       v.Name = "wall1_button"
     end
   end
@@ -98,7 +98,7 @@ end
 --wall2 button
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "PlasticBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-368.995209, -42.549984, -100.606941, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-376.36676, -192.600037, -119.606003, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
       v.Name = "wall2_button"
     end
   end
@@ -106,7 +106,7 @@ end
 --wall3 button
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "PlasticBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-355.995209, -42.549984, -100.606941, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-362.266968, -192.600067, -119.606033, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
       v.Name = "wall3_button"
     end
   end
@@ -114,7 +114,7 @@ end
 --ownerdoor button
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "PlasticBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-386.995209, -42.5499878, -105.606903, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-396.266968, -192.600067, -126.606033, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
       v.Name = "ownerdoor_button"
     end
   end
@@ -162,7 +162,7 @@ end
 --wall1 button piston
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "Piston" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-381.940002, -42.9249878, -100.703491, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-390.367126, -192.950073, -119.606117, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
       v.Name = "wall1_button_piston"
     end
   end
@@ -170,7 +170,7 @@ end
 --wall2 button piston
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "Piston" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-368.940002, -42.9249878, -100.703491, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-376.26712, -192.950073, -119.606117, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
       v.Name = "wall2_button_piston"
     end
   end
@@ -178,7 +178,7 @@ end
 --wall3 button piston
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "Piston" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-355.940002, -42.9249878, -100.703491, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-362.167114, -192.950073, -119.606117, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
       v.Name = "wall3_button_piston"
     end
   end
@@ -186,7 +186,7 @@ end
 --ownerdoor button piston
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "Piston" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-386.940002, -42.9249878, -105.703491, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-396.167114, -192.950073, -126.606117, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
       v.Name = "ownerdoor_button_piston"
     end
   end
