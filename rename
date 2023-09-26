@@ -40,7 +40,6 @@ for _,v in pairs(workspace:GetChildren()) do
   end
 end
 --mega part
---[[
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "PlasticBlock" and v.ClassName == "Model" then
     if v.PPart and v.PPart.CFrame == CFrame.new(-422.537903, -50.6343155, -132.610123, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
@@ -48,7 +47,6 @@ for _,v in pairs(workspace:GetChildren()) do
     end
   end
 end
-]]
 --button1
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "PlasticBlock" and v.ClassName == "Model" then
@@ -73,7 +71,6 @@ for _,v in pairs(workspace:GetChildren()) do
     end
   end
 end
---[[
 --upgrader button 1
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "PlasticBlock" and v.ClassName == "Model" then
@@ -90,7 +87,6 @@ for _,v in pairs(workspace:GetChildren()) do
     end
   end
 end
-]]
 --wall1 button
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "PlasticBlock" and v.ClassName == "Model" then
@@ -115,7 +111,6 @@ for _,v in pairs(workspace:GetChildren()) do
     end
   end
 end
---[[
 --ownerdoor button
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "PlasticBlock" and v.ClassName == "Model" then
@@ -124,7 +119,6 @@ for _,v in pairs(workspace:GetChildren()) do
     end
   end
 end
-]]
 --button piston 1
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "Piston" and v.ClassName == "Model" then
@@ -149,7 +143,6 @@ for _,v in pairs(workspace:GetChildren()) do
     end
   end
 end
---[[
 --upgrader piston 1
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "Piston" and v.ClassName == "Model" then
@@ -166,7 +159,6 @@ for _,v in pairs(workspace:GetChildren()) do
     end
   end
 end
-]]
 --wall1 button piston
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "Piston" and v.ClassName == "Model" then
@@ -191,7 +183,6 @@ for _,v in pairs(workspace:GetChildren()) do
     end
   end
 end
---[[
 --ownerdoor button piston
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "Piston" and v.ClassName == "Model" then
@@ -200,7 +191,6 @@ for _,v in pairs(workspace:GetChildren()) do
     end
   end
 end
-]]
 --piston1
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "Piston" and v.ClassName == "Model" then
@@ -225,7 +215,6 @@ for _,v in pairs(workspace:GetChildren()) do
     end
   end
 end
---[[
 --piston4
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "Piston" and v.ClassName == "Model" then
@@ -234,7 +223,6 @@ for _,v in pairs(workspace:GetChildren()) do
     end
   end
 end
-]]
 --wall1 piston
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "Piston" and v.ClassName == "Model" then
@@ -259,7 +247,6 @@ for _,v in pairs(workspace:GetChildren()) do
     end
   end
 end
---[[
 --upgrader1
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "BouncyBlock" and v.ClassName == "Model" then
@@ -284,7 +271,6 @@ for _,v in pairs(workspace:GetChildren()) do
     end
   end
 end
-]]
 --starter dropper pad
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "PlasticBlock" and v.ClassName == "Model" then
@@ -317,7 +303,6 @@ for _,v in pairs(workspace:GetChildren()) do
     end
   end
 end
---[[
 --mega dropper drop part
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "ObsidianBlock" and v.ClassName == "Model" then
@@ -326,7 +311,6 @@ for _,v in pairs(workspace:GetChildren()) do
     end
   end
 end
-]]
 --sell
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "TitaniumBlock" and v.ClassName == "Model" then
@@ -343,7 +327,6 @@ for _,v in pairs(workspace:GetChildren()) do
     end
   end
 end
---[[
 --ownerdoor laser1-laser 3
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "NeonBlock" and v.ClassName == "Model" then
@@ -382,6 +365,5 @@ for _,v in pairs(workspace:GetChildren()) do
     end
   end
 end
-]]
 end
 --tpb was here
