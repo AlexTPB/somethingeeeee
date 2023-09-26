@@ -2,7 +2,7 @@ for i = 1, 15, 0.1 do
 --pad
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "SandBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-411.850616, -12.5049944, -100.506874, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-415.065674, -12.3499918, -120.406868, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
       v.Name = "pad"
     end
   end
@@ -10,7 +10,7 @@ end
 --sign1
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "Sign" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-411.885681, -10.1831703, -98.2723694, 1, 0, 0, 0, 0.866051912, -0.499954134, 0, 0.499954134, 0.866051912) then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-415.065735, -10.1731749, -118.133698, 1, 0, 0, 0, 0.866051912, -0.499954134, 0, 0.499954134, 0.866051912) then
       v.Name = "sign1"
     end
   end
@@ -18,7 +18,7 @@ end
 --sign2
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "Sign" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-391.260681, -5.38999081, -96.8068848, -1, 0, 0, 0, 1, 0, 0, 0, -1) then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-396.965668, -5.39999104, -116.306885, -1, 0, 0, 0, 1, 0, 0, 0, -1) then
       v.Name = "sign2"
     end
   end
@@ -26,7 +26,7 @@ end
 --door
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "MetalBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-391.260254, -9.58999062, -96.656868, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-396.965668, -9.59999084, -116.581841, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
       v.Name = "door"
     end
   end
@@ -34,7 +34,7 @@ end
 --conveyor
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "ConcreteBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-392.165649, -12.2499914, -131.656845, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-392.565674, -12.1999903, -149.606842, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
       v.Name = "conveyor"
     end
   end
@@ -50,7 +50,7 @@ end
 --button1
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "PlasticBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-358.995148, -42.599987, -131.606873, -1.1920929e-07, 0, 1.00000012, 0, 1, 0, -1.00000012, 0, -1.1920929e-07) then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-361.465668, -192.600006, -149.606842, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
       v.Name = "button1"
     end
   end
@@ -58,7 +58,7 @@ end
 --button2
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "PlasticBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-372.995209, -42.5499878, -124.60688, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-377.465607, -192.600006, -144.606857, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
       v.Name = "button2"
     end
   end
@@ -66,7 +66,7 @@ end
 --button3
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "PlasticBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-386.995209, -42.5499878, -124.60688, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-391.965607, -192.600006, -144.606857, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
       v.Name = "button3"
     end
   end
@@ -122,7 +122,7 @@ end
 --button piston 1
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "Piston" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-358.940002, -42.9249878, -131.703491, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-361.365662, -192.950012, -149.606842, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
       v.Name = "button_piston1"
     end
   end
@@ -130,7 +130,7 @@ end
 --button piston 2
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "Piston" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-372.940002, -42.9249878, -124.703491, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-377.365662, -192.950012, -144.606842, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
       v.Name = "button_piston2"
     end
   end
@@ -138,7 +138,7 @@ end
 --button piston 3
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "Piston" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-386.940002, -42.9249878, -124.703491, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-391.865662, -192.950012, -144.606842, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
       v.Name = "button_piston3"
     end
   end
@@ -194,7 +194,7 @@ end
 --piston1
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "Piston" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-362.46521, -63.1749954, -131.506744, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-367.865662, -212.950012, -149.606842, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
       v.Name = "piston1"
     end
   end
@@ -202,7 +202,7 @@ end
 --piston2
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "Piston" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-373.063019, -63.1749992, -136.90451, -1, 0, 0, 0, 1, 0, 0, 0, -1) then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-378.452026, -212.950012, -153.99324, -1, 0, 0, 0, 1, 0, 0, 0, -1) then
       v.Name = "piston2"
     end
   end
@@ -210,7 +210,7 @@ end
 --piston3
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "Piston" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-385.563019, -63.1749992, -136.90451, -1, 0, 0, 0, 1, 0, 0, 0, -1) then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-387.452026, -212.950012, -153.99324, -1, 0, 0, 0, 1, 0, 0, 0, -1) then
       v.Name = "piston3"
     end
   end
@@ -226,7 +226,7 @@ end
 --wall1 piston
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "Piston" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-346.165222, -103.174995, -123.806732, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-342.965668, -62.9499931, -157.606842, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
       v.Name = "wall1_piston"
     end
   end
@@ -234,7 +234,7 @@ end
 --wall2 piston
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "Piston" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-346.165222, -83.1749954, -143.806732, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-342.965668, -112.949997, -157.606842, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
       v.Name = "wall2_piston"
     end
   end
@@ -242,7 +242,7 @@ end
 --wall3 piston
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "Piston" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-346.165222, -123.174995, -123.806732, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-342.965668, -162.950012, -157.606842, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
       v.Name = "wall3_piston"
     end
   end
@@ -273,8 +273,8 @@ for _,v in pairs(workspace:GetChildren()) do
 end
 --starter dropper pad
 for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "BouncyBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-367.160492, -56.2094498, -131.48172, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+  if v.Name == "PlasticBlock" and v.ClassName == "Model" then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-372.338379, -206.417206, -149.606934, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
       v.Name = "start"
     end
   end
@@ -282,23 +282,23 @@ end
 --dropper1 pad
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "SandBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-362.464905, -60.2000275, -129.456726, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-367.665649, -210.799988, -147.40686, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
       v.Name = "drop"
     end
   end
 end
 --dropper2 pad
 for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "CoalBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-373.037964, -56.2094421, -132.209167, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+  if v.Name == "PlasticBlock" and v.ClassName == "Model" then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-378.452118, -206.417297, -149.520447, -1, 0, 0, 0, 1, 0, 0, 0, -1) then
       v.Name = "drop2"
     end
   end
 end
 --dropper 3 drop part
 for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "ObsidianBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.Size == Vector3.new(0.800000011920929, 0.05000000447034836, 0.7999999523162842) then
+  if v.Name == "PlasticBlock" and v.ClassName == "Model" then
+    if v.PPart and v.PPart.Size == Vector3.new(1.5, 0.6000000238418579, 1.2999999523162842) then
       v.Name = "drop3"
     end
   end
@@ -313,8 +313,8 @@ for _,v in pairs(workspace:GetChildren()) do
 end
 --sell
 for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "WoodBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-425.465668, -12.649992, -131.606842, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+  if v.Name == "TitaniumBlock" and v.ClassName == "Model" then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-418.640656, -12.5999918, -149.606842, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
       v.Name = "sell"
     end
   end
@@ -322,7 +322,7 @@ end
 --total
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "Sign" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-418.965668, -11.0999908, -98.606842, 1, 0, 0, 0, 1, 0, 0, 0, 1) then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-422.965668, -10.8999929, -118.606842, 1, 0, 0, 0, 1, 0, 0, 0, 1) then
       v.Name = "total"
     end
   end
