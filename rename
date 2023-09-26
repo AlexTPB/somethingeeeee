@@ -250,7 +250,7 @@ end
 --upgrader1
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "BouncyBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-412.562775, -59.8072281, -131.608765, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-405.967163, -209.762939, -149.592087, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
       v.Name = "upgrader1"
     end
   end
@@ -258,7 +258,7 @@ end
 --actual upgrader piston 1
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "Piston" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-412.563019, -63.1749992, -127.704529, -1, 0, 0, 0, 1, 0, 0, 0, -1) then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-405.952026, -212.950012, -142.49324, -1, 0, 0, 0, 1, 0, 0, 0, -1) then
       v.Name = "upgrad_piston1"
     end
   end
