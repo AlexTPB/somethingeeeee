@@ -74,7 +74,7 @@ end
 --upgrader button 1
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "PlasticBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-412.965607, -192.600006, -144.606857, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-406.965576, -192.600006, -144.606842, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
       v.Name = "button_upgrader1"
     end
   end
@@ -146,7 +146,7 @@ end
 --upgrader piston 1
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "Piston" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-412.865662, -192.950012, -144.606842, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-406.865662, -192.950012, -144.606842, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
       v.Name = "upgrader_piston1"
     end
   end
