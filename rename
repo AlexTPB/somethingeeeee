@@ -42,7 +42,7 @@ end
 --mega part
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "PlasticBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-422.537903, -50.6343155, -132.610123, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-418.702026, -202.450043, -151.093231, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
       v.Name = "megapart"
     end
   end
@@ -218,7 +218,7 @@ end
 --piston4
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "Piston" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-422.563019, -63.1749992, -136.90451, -1, 0, 0, 0, 1, 0, 0, 0, -1) then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-418.35202, -212.950012, -155.49324, -1, 0, 0, 0, 1, 0, 0, 0, -1) then
       v.Name = "piston4"
     end
   end
@@ -306,7 +306,7 @@ end
 --mega dropper drop part
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "ObsidianBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.Size == Vector3.new(0.5999999642372131, 0.05000000447034836, 0.5999999046325684) then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-418.602081, -199.917236, -150.770538, -1, 0, 0, 0, 1, 0, 0, 0, -1) then
       v.Name = "mega"
     end
   end
