@@ -298,7 +298,7 @@ end
 --dropper 3 drop part
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "PlasticBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.Size == Vector3.new(1.5, 0.6000000238418579, 1.2999999523162842) then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-387.702179, -204.417267, -149.770416, -1, 0, 0, 0, 1, 0, 0, 0, -1) then
       v.Name = "drop3"
     end
   end
