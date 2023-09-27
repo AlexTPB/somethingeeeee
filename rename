@@ -90,7 +90,7 @@ end
 --wall1 button
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "PlasticBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-390.466675, -192.600037, -119.60582, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+    if v.PPart and v.PPart.Size == Vector3.new(4, 0.20000001788139343, 4) then
       v.Name = "wall1_button"
     end
   end
@@ -98,7 +98,7 @@ end
 --wall2 button
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "PlasticBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-376.366669, -192.600037, -119.606003, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+    if v.PPart and v.PPart.Size == Vector3.new(4, 0.20000001788139343, 4) then
       v.Name = "wall2_button"
     end
   end
@@ -106,7 +106,7 @@ end
 --wall3 button
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "PlasticBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-362.267059, -192.600067, -119.606033, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+    if v.PPart and v.PPart.Size == Vector3.new(4, 0.20000001788139343, 4) then
       v.Name = "wall3_button"
     end
   end
