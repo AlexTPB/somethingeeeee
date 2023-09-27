@@ -119,6 +119,14 @@ for _,v in pairs(workspace:GetChildren()) do
     end
   end
 end
+--turret button
+for _,v in pairs(workspace:GetChildren()) do
+	if v.Name == "PlasticBlock" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.CFrame == CFrame.new(-372.365784, -192.600037, -108.606003, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+			v.Name = "turret_button"
+		end
+	end
+end
 --button piston 1
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "Piston" and v.ClassName == "Model" then
@@ -190,6 +198,14 @@ for _,v in pairs(workspace:GetChildren()) do
       v.Name = "ownerdoor_button_piston"
     end
   end
+end
+--turret button piston
+for _,v in pairs(workspace:GetChildren()) do
+	if v.Name == "Piston" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.CFrame == CFrame.new(-372.26712, -192.950073, -108.606117, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+			v.Name = "turret_button_piston"
+		end
+	end
 end
 --piston1
 for _,v in pairs(workspace:GetChildren()) do
@@ -270,6 +286,14 @@ for _,v in pairs(workspace:GetChildren()) do
       v.Name = "ownerdoor_piston"
     end
   end
+end
+--turret piston
+for _,v in pairs(workspace:GetChildren()) do
+	if v.Name == "Piston" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.CFrame == CFrame.new(-380.452026, -212.950012, -113.493225, -1, 0, 0, 0, 1, 0, 0, 0, -1) then
+			v.Name = "turret_piston"
+		end
+	end
 end
 --starter dropper pad
 for _,v in pairs(workspace:GetChildren()) do
@@ -356,6 +380,14 @@ for _,v in pairs(workspace:GetChildren()) do
       v.Name = "ownerdoor_laserbutton"
     end
   end
+end
+--turret gun piston
+for _,v in pairs(workspace:GetChildren()) do
+	if v.Name == "Piston" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.CFrame == CFrame.new(-372.965668, -209.639099, -105.772278, 1, 0, 0, 0, 1, 0, 0, 0, 1) then
+			v.Name = "turret_gunpiston"
+		end
+	end
 end
 --ownerdoor spikes
 for _,v in pairs(workspace:GetChildren()) do
