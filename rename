@@ -266,7 +266,7 @@ end
 --ownerdoor piston
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "Piston" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-400.563019, -63.1749992, -98.7045288, -1, 0, 0, 0, 1, 0, 0, 0, -1) then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-401.452026, -212.950012, -123.493225, -1, 0, 0, 0, 1, 0, 0, 0, -1) then
       v.Name = "ownerdoor_piston"
     end
   end
@@ -330,21 +330,21 @@ end
 --ownerdoor laser1-laser 3
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "NeonBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-391.465698, -56.9499893, -98.1568604, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-397.015686, -206.544983, -118.056839, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
       v.Name = "ownerdoor_laser1"
     end
   end
 end
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "NeonBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-391.465698, -58.9499893, -98.1568604, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-397.015686, -208.544983, -118.056839, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
       v.Name = "ownerdoor_laser2"
     end
   end
 end
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "NeonBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-391.465698, -60.9499893, -98.1568604, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-397.015686, -210.544983, -118.056839, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
       v.Name = "ownerdoor_laser3"
     end
   end
@@ -352,7 +352,7 @@ end
 --ownerdoor laser button
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "TitaniumBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-387.215668, -58.4499893, -99.0068588, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-392.540649, -208.494995, -119.006844, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
       v.Name = "ownerdoor_laserbutton"
     end
   end
