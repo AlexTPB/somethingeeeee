@@ -82,7 +82,7 @@ end
 --button4
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "PlasticBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-431.746521, -42.5499916, -137.701492, -0.86605227, 0, 0.499954134, 0, 1, 0, -0.499954134, 0, -0.86605227) then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-426.965607, -192.600006, -156.606857, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
       v.Name = "button4"
     end
   end
@@ -154,7 +154,7 @@ end
 --button piston 4
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "Piston" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-431.940002, -42.9249878, -137.703491, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-426.865662, -192.950012, -156.606842, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
       v.Name = "button_piston4"
     end
   end
