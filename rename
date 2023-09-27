@@ -338,7 +338,7 @@ end
 --sell
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "TitaniumBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-418.640656, -12.5999918, -149.606842, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-422.140656, -12.5999918, -149.606842, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
       v.Name = "sell"
     end
   end
