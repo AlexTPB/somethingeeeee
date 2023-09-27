@@ -114,7 +114,7 @@ end
 --ownerdoor button
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "PlasticBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-396.266968, -192.600067, -126.606033, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-394.766968, -192.600006, -122.606071, -1.1920929e-07, 0, 1.00000012, 0, 1, 0, -1.00000012, 0, -1.1920929e-07) then
       v.Name = "ownerdoor_button"
     end
   end
@@ -186,7 +186,7 @@ end
 --ownerdoor button piston
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "Piston" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-396.167114, -192.950073, -126.606117, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-394.667114, -192.950043, -122.606117, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
       v.Name = "ownerdoor_button_piston"
     end
   end
