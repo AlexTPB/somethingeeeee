@@ -98,7 +98,7 @@ end
 --wall2 button
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "PlasticBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.Size == Vector3.new(4, 0.20000001788139343, 4) then
+    if v.PPart and v.PPart.Size == Vector3.new(4.050000190734863, 0.20000001788139343, 4.050000190734863) then
       v.Name = "wall2_button"
     end
   end
