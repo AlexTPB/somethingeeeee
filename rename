@@ -389,6 +389,14 @@ for _,v in pairs(workspace:GetChildren()) do
 		end
 	end
 end
+--turret blockage
+for _,v in pairs(workspace:GetChildren()) do
+  if v.Name == "WoodBlock" and v.ClassName == "Model" then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-379.66571, -205.399994, -101.606834, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+      v.Name = "turretgun_blockage"
+    end
+  end
+end
 --ownerdoor spikes
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "Piston" and v.ClassName == "Model" then
