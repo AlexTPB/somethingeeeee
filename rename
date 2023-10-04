@@ -39,6 +39,14 @@ for _,v in pairs(workspace:GetChildren()) do
     end
   end
 end
+--dropper3 part
+for _,v in pairs(workspace:GetChildren()) do
+  if v.Name == "StoneBlock" and v.ClassName == "Model" then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-387.702026, -206.799988, -149.593231, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+      v.Name = "drop3part"
+    end
+  end
+end
 --mega part
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "PlasticBlock" and v.ClassName == "Model" then
