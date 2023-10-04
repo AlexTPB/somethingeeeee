@@ -119,6 +119,14 @@ for _,v in pairs(workspace:GetChildren()) do
     end
   end
 end
+--stair button
+for _,v in pairs(workspace:GetChildren()) do
+  if v.Name == "PlasticBlock" and v.ClassName == "Model" then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-364.365784, -192.600037, -125.606003, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+      v.Name = "stair_button"
+    end
+  end
+end
 --ownerdoor button
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "PlasticBlock" and v.ClassName == "Model" then
@@ -196,6 +204,14 @@ for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "Piston" and v.ClassName == "Model" then
     if v.PPart and v.PPart.CFrame == CFrame.new(-362.167114, -192.950073, -119.606117, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
       v.Name = "wall3_button_piston"
+    end
+  end
+end
+--stair button piston
+for _,v in pairs(workspace:GetChildren()) do
+  if v.Name == "Piston" and v.ClassName == "Model" then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-364.26712, -192.950073, -125.606117, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+      v.Name = "stair_button_piston"
     end
   end
 end
