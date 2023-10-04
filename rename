@@ -50,7 +50,7 @@ end
 --mega part
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "PlasticBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-418.702026, -202.450043, -151.093231, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-418.702026, -202.450043, -150.593231, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
       v.Name = "megapart"
     end
   end
