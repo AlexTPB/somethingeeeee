@@ -338,7 +338,7 @@ end
 --mega dropper drop part
 for _,v in pairs(workspace:GetChildren()) do
   if v.Name == "PlasticBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-418.602081, -199.917236, -150.770538, -1, 0, 0, 0, 1, 0, 0, 0, -1) then
+    if v.PPart and v.PPart.CFrame == CFrame.new(-418.602081, -199.917236, -149.770538, -1, 0, 0, 0, 1, 0, 0, 0, -1) then
       v.Name = "mega"
     end
   end
