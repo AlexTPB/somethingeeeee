@@ -1,433 +1,433 @@
 for i = 1, 6, 0.1 do
---pad
-for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "SandBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-415.065674, -12.4499922, -120.406868, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
-      v.Name = "pad"
-    end
-  end
-end
---sign1
-for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "Sign" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-415.065735, -10.1731749, -118.133698, 1, 0, 0, 0, 0.866051912, -0.499954134, 0, 0.499954134, 0.866051912) then
-      v.Name = "sign1"
-    end
-  end
-end
---sign2
-for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "Sign" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-396.965668, -5.39999104, -116.306885, -1, 0, 0, 0, 1, 0, 0, 0, -1) then
-      v.Name = "sign2"
-    end
-  end
-end
---door
-for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "MetalBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-396.965668, -9.59999084, -116.581841, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
-      v.Name = "door"
-    end
-  end
-end
---conveyor
-for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "ConcreteBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-392.565674, -12.1999903, -149.606842, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
-      v.Name = "conveyor"
-    end
-  end
-end
---dropper3 part
-for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "StoneBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-387.702026, -206.799988, -149.593231, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
-      v.Name = "drop3part"
-    end
-  end
-end
---mega part
-for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "PlasticBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-418.702026, -202.450043, -150.593231, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
-      v.Name = "megapart"
-    end
-  end
-end
---button1
-for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "PlasticBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-361.465668, -192.600006, -149.606842, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
-      v.Name = "button1"
-    end
-  end
-end
---button2
-for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "PlasticBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-377.465607, -192.600006, -144.606857, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
-      v.Name = "button2"
-    end
-  end
-end
---button3
-for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "PlasticBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-391.965607, -192.600006, -144.606857, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
-      v.Name = "button3"
-    end
-  end
-end
---upgrader button 1
-for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "PlasticBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-406.965576, -192.600006, -144.606842, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
-      v.Name = "button_upgrader1"
-    end
-  end
-end
---button4
-for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "PlasticBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-426.965607, -192.600006, -156.606857, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
-      v.Name = "button4"
-    end
-  end
-end
---wall1 button
-for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "PlasticBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-390.466675, -192.600037, -119.60582, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
-      v.Name = "wall1_button"
-    end
-  end
-end
---wall2 button
-for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "PlasticBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.Size == Vector3.new(4.050000190734863, 0.20000001788139343, 4.050000190734863) then
-      v.Name = "wall2_button"
-    end
-  end
-end
---wall3 button
-for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "PlasticBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.Size == Vector3.new(4.050000190734863, 0.2500000298023224, 4.050000190734863) then
-      v.Name = "wall3_button"
-    end
-  end
-end
---stair button
-for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "PlasticBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-364.365784, -192.600037, -125.606003, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
-      v.Name = "stair_button"
-    end
-  end
-end
---ownerdoor button
-for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "PlasticBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-394.766968, -192.600006, -122.606071, -1.1920929e-07, 0, 1.00000012, 0, 1, 0, -1.00000012, 0, -1.1920929e-07) then
-      v.Name = "ownerdoor_button"
-    end
-  end
-end
---turret button
-for _,v in pairs(workspace:GetChildren()) do
-	if v.Name == "PlasticBlock" and v.ClassName == "Model" then
-		if v.PPart and v.PPart.CFrame == CFrame.new(-372.365784, -192.600037, -108.606003, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
-			v.Name = "turret_button"
+	--pad
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+	  if v.Name == "SandBlock" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.CFrame == CFrame.new(-415.065674, -12.4499922, -120.406868, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+		  v.Name = "pad"
+		end
+	  end
+	end
+	--sign1
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+	  if v.Name == "Sign" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.CFrame == CFrame.new(-415.065735, -10.1731749, -118.133698, 1, 0, 0, 0, 0.866051912, -0.499954134, 0, 0.499954134, 0.866051912) then
+		  v.Name = "sign1"
+		end
+	  end
+	end
+	--sign2
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+	  if v.Name == "Sign" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.CFrame == CFrame.new(-396.965668, -5.39999104, -116.306885, -1, 0, 0, 0, 1, 0, 0, 0, -1) then
+		  v.Name = "sign2"
+		end
+	  end
+	end
+	--door
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+	  if v.Name == "MetalBlock" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.CFrame == CFrame.new(-396.965668, -9.59999084, -116.581841, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+		  v.Name = "door"
+		end
+	  end
+	end
+	--conveyor
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+	  if v.Name == "ConcreteBlock" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.CFrame == CFrame.new(-392.565674, -12.1999903, -149.606842, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+		  v.Name = "conveyor"
+		end
+	  end
+	end
+	--dropper3 part
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+	  if v.Name == "StoneBlock" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.CFrame == CFrame.new(-387.702026, -206.799988, -149.593231, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+		  v.Name = "drop3part"
+		end
+	  end
+	end
+	--mega part
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+	  if v.Name == "PlasticBlock" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.CFrame == CFrame.new(-418.702026, -202.450043, -150.593231, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+		  v.Name = "megapart"
+		end
+	  end
+	end
+	--button1
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+	  if v.Name == "PlasticBlock" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.CFrame == CFrame.new(-361.465668, -192.600006, -149.606842, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+		  v.Name = "button1"
+		end
+	  end
+	end
+	--button2
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+	  if v.Name == "PlasticBlock" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.CFrame == CFrame.new(-377.465607, -192.600006, -144.606857, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+		  v.Name = "button2"
+		end
+	  end
+	end
+	--button3
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+	  if v.Name == "PlasticBlock" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.CFrame == CFrame.new(-391.965607, -192.600006, -144.606857, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+		  v.Name = "button3"
+		end
+	  end
+	end
+	--upgrader button 1
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+	  if v.Name == "PlasticBlock" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.CFrame == CFrame.new(-406.965576, -192.600006, -144.606842, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+		  v.Name = "button_upgrader1"
+		end
+	  end
+	end
+	--button4
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+	  if v.Name == "PlasticBlock" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.CFrame == CFrame.new(-426.965607, -192.600006, -156.606857, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+		  v.Name = "button4"
+		end
+	  end
+	end
+	--wall1 button
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+	  if v.Name == "PlasticBlock" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.CFrame == CFrame.new(-390.466675, -192.600037, -119.60582, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+		  v.Name = "wall1_button"
+		end
+	  end
+	end
+	--wall2 button
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+	  if v.Name == "PlasticBlock" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.Size == Vector3.new(4.050000190734863, 0.20000001788139343, 4.050000190734863) then
+		  v.Name = "wall2_button"
+		end
+	  end
+	end
+	--wall3 button
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+	  if v.Name == "PlasticBlock" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.Size == Vector3.new(4.050000190734863, 0.2500000298023224, 4.050000190734863) then
+		  v.Name = "wall3_button"
+		end
+	  end
+	end
+	--stair button
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+	  if v.Name == "PlasticBlock" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.CFrame == CFrame.new(-364.365784, -192.600037, -125.606003, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+		  v.Name = "stair_button"
+		end
+	  end
+	end
+	--ownerdoor button
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+	  if v.Name == "PlasticBlock" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.CFrame == CFrame.new(-394.766968, -192.600006, -122.606071, -1.1920929e-07, 0, 1.00000012, 0, 1, 0, -1.00000012, 0, -1.1920929e-07) then
+		  v.Name = "ownerdoor_button"
+		end
+	  end
+	end
+	--turret button
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+		if v.Name == "PlasticBlock" and v.ClassName == "Model" then
+			if v.PPart and v.PPart.CFrame == CFrame.new(-372.365784, -192.600037, -108.606003, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+				v.Name = "turret_button"
+			end
 		end
 	end
-end
---button piston 1
-for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "Piston" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-361.365662, -192.950012, -149.606842, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
-      v.Name = "button_piston1"
-    end
-  end
-end
---button piston 2
-for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "Piston" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-377.365662, -192.950012, -144.606842, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
-      v.Name = "button_piston2"
-    end
-  end
-end
---button piston 3
-for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "Piston" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-391.865662, -192.950012, -144.606842, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
-      v.Name = "button_piston3"
-    end
-  end
-end
---upgrader piston 1
-for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "Piston" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-406.865662, -192.950012, -144.606842, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
-      v.Name = "upgrader_piston1"
-    end
-  end
-end
---button piston 4
-for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "Piston" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-426.865662, -192.950012, -156.606842, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
-      v.Name = "button_piston4"
-    end
-  end
-end
---wall1 button piston
-for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "Piston" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-390.367126, -192.950073, -119.606117, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
-      v.Name = "wall1_button_piston"
-    end
-  end
-end
---wall2 button piston
-for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "Piston" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-376.26712, -192.950073, -119.606117, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
-      v.Name = "wall2_button_piston"
-    end
-  end
-end
---wall3 button piston
-for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "Piston" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-362.167114, -192.950073, -119.606117, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
-      v.Name = "wall3_button_piston"
-    end
-  end
-end
---stair button piston
-for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "Piston" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-364.26712, -192.950073, -125.606117, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
-      v.Name = "stair_button_piston"
-    end
-  end
-end
---ownerdoor button piston
-for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "Piston" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-394.667114, -192.950043, -122.606117, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
-      v.Name = "ownerdoor_button_piston"
-    end
-  end
-end
---turret button piston
-for _,v in pairs(workspace:GetChildren()) do
-	if v.Name == "Piston" and v.ClassName == "Model" then
-		if v.PPart and v.PPart.CFrame == CFrame.new(-372.26712, -192.950073, -108.606117, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
-			v.Name = "turret_button_piston"
+	--button piston 1
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+	  if v.Name == "Piston" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.CFrame == CFrame.new(-361.365662, -192.950012, -149.606842, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+		  v.Name = "button_piston1"
+		end
+	  end
+	end
+	--button piston 2
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+	  if v.Name == "Piston" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.CFrame == CFrame.new(-377.365662, -192.950012, -144.606842, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+		  v.Name = "button_piston2"
+		end
+	  end
+	end
+	--button piston 3
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+	  if v.Name == "Piston" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.CFrame == CFrame.new(-391.865662, -192.950012, -144.606842, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+		  v.Name = "button_piston3"
+		end
+	  end
+	end
+	--upgrader piston 1
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+	  if v.Name == "Piston" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.CFrame == CFrame.new(-406.865662, -192.950012, -144.606842, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+		  v.Name = "upgrader_piston1"
+		end
+	  end
+	end
+	--button piston 4
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+	  if v.Name == "Piston" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.CFrame == CFrame.new(-426.865662, -192.950012, -156.606842, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+		  v.Name = "button_piston4"
+		end
+	  end
+	end
+	--wall1 button piston
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+	  if v.Name == "Piston" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.CFrame == CFrame.new(-390.367126, -192.950073, -119.606117, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+		  v.Name = "wall1_button_piston"
+		end
+	  end
+	end
+	--wall2 button piston
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+	  if v.Name == "Piston" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.CFrame == CFrame.new(-376.26712, -192.950073, -119.606117, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+		  v.Name = "wall2_button_piston"
+		end
+	  end
+	end
+	--wall3 button piston
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+	  if v.Name == "Piston" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.CFrame == CFrame.new(-362.167114, -192.950073, -119.606117, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+		  v.Name = "wall3_button_piston"
+		end
+	  end
+	end
+	--stair button piston
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+	  if v.Name == "Piston" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.CFrame == CFrame.new(-364.26712, -192.950073, -125.606117, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+		  v.Name = "stair_button_piston"
+		end
+	  end
+	end
+	--ownerdoor button piston
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+	  if v.Name == "Piston" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.CFrame == CFrame.new(-394.667114, -192.950043, -122.606117, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+		  v.Name = "ownerdoor_button_piston"
+		end
+	  end
+	end
+	--turret button piston
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+		if v.Name == "Piston" and v.ClassName == "Model" then
+			if v.PPart and v.PPart.CFrame == CFrame.new(-372.26712, -192.950073, -108.606117, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+				v.Name = "turret_button_piston"
+			end
 		end
 	end
-end
---piston1
-for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "Piston" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-367.865662, -212.950012, -149.606842, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
-      v.Name = "piston1"
-    end
-  end
-end
---piston2
-for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "Piston" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-378.452026, -212.950012, -153.99324, -1, 0, 0, 0, 1, 0, 0, 0, -1) then
-      v.Name = "piston2"
-    end
-  end
-end
---piston3
-for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "Piston" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-387.452026, -212.950012, -153.99324, -1, 0, 0, 0, 1, 0, 0, 0, -1) then
-      v.Name = "piston3"
-    end
-  end
-end
---piston4
-for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "Piston" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-418.35202, -212.950012, -155.49324, -1, 0, 0, 0, 1, 0, 0, 0, -1) then
-      v.Name = "piston4"
-    end
-  end
-end
---wall1 piston
-for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "Piston" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-342.965668, -62.9499931, -157.606842, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
-      v.Name = "wall1_piston"
-    end
-  end
-end
---wall2 piston
-for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "Piston" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-342.965668, -112.949997, -157.606842, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
-      v.Name = "wall2_piston"
-    end
-  end
-end
---wall3 piston
-for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "Piston" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-342.965668, -162.950012, -157.606842, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
-      v.Name = "wall3_piston"
-    end
-  end
-end
---stair piston
-for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "Piston" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-342.965668, -182.950012, -129.606842, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
-      v.Name = "stair_piston"
-    end
-  end
-end
---upgrader1
-for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "BouncyBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-405.967163, -209.762939, -149.592087, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
-      v.Name = "upgrader1"
-    end
-  end
-end
---actual upgrader piston 1
-for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "Piston" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-405.952026, -212.950012, -142.49324, -1, 0, 0, 0, 1, 0, 0, 0, -1) then
-      v.Name = "upgrad_piston1"
-    end
-  end
-end
---ownerdoor piston
-for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "Piston" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-401.452026, -212.950012, -123.493225, -1, 0, 0, 0, 1, 0, 0, 0, -1) then
-      v.Name = "ownerdoor_piston"
-    end
-  end
-end
---turret piston
-for _,v in pairs(workspace:GetChildren()) do
-	if v.Name == "Piston" and v.ClassName == "Model" then
-		if v.PPart and v.PPart.CFrame == CFrame.new(-380.452026, -212.950012, -113.493225, -1, 0, 0, 0, 1, 0, 0, 0, -1) then
-			v.Name = "turret_piston"
+	--piston1
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+	  if v.Name == "Piston" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.CFrame == CFrame.new(-367.865662, -212.950012, -149.606842, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+		  v.Name = "piston1"
+		end
+	  end
+	end
+	--piston2
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+	  if v.Name == "Piston" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.CFrame == CFrame.new(-378.452026, -212.950012, -153.99324, -1, 0, 0, 0, 1, 0, 0, 0, -1) then
+		  v.Name = "piston2"
+		end
+	  end
+	end
+	--piston3
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+	  if v.Name == "Piston" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.CFrame == CFrame.new(-387.452026, -212.950012, -153.99324, -1, 0, 0, 0, 1, 0, 0, 0, -1) then
+		  v.Name = "piston3"
+		end
+	  end
+	end
+	--piston4
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+	  if v.Name == "Piston" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.CFrame == CFrame.new(-418.35202, -212.950012, -155.49324, -1, 0, 0, 0, 1, 0, 0, 0, -1) then
+		  v.Name = "piston4"
+		end
+	  end
+	end
+	--wall1 piston
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+	  if v.Name == "Piston" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.CFrame == CFrame.new(-342.965668, -62.9499931, -157.606842, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+		  v.Name = "wall1_piston"
+		end
+	  end
+	end
+	--wall2 piston
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+	  if v.Name == "Piston" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.CFrame == CFrame.new(-342.965668, -112.949997, -157.606842, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+		  v.Name = "wall2_piston"
+		end
+	  end
+	end
+	--wall3 piston
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+	  if v.Name == "Piston" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.CFrame == CFrame.new(-342.965668, -162.950012, -157.606842, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+		  v.Name = "wall3_piston"
+		end
+	  end
+	end
+	--stair piston
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+	  if v.Name == "Piston" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.CFrame == CFrame.new(-342.965668, -182.950012, -129.606842, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+		  v.Name = "stair_piston"
+		end
+	  end
+	end
+	--upgrader1
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+	  if v.Name == "BouncyBlock" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.CFrame == CFrame.new(-405.967163, -209.762939, -149.592087, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+		  v.Name = "upgrader1"
+		end
+	  end
+	end
+	--actual upgrader piston 1
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+	  if v.Name == "Piston" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.CFrame == CFrame.new(-405.952026, -212.950012, -142.49324, -1, 0, 0, 0, 1, 0, 0, 0, -1) then
+		  v.Name = "upgrad_piston1"
+		end
+	  end
+	end
+	--ownerdoor piston
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+	  if v.Name == "Piston" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.CFrame == CFrame.new(-401.452026, -212.950012, -123.493225, -1, 0, 0, 0, 1, 0, 0, 0, -1) then
+		  v.Name = "ownerdoor_piston"
+		end
+	  end
+	end
+	--turret piston
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+		if v.Name == "Piston" and v.ClassName == "Model" then
+			if v.PPart and v.PPart.CFrame == CFrame.new(-380.452026, -212.950012, -113.493225, -1, 0, 0, 0, 1, 0, 0, 0, -1) then
+				v.Name = "turret_piston"
+			end
 		end
 	end
-end
---starter dropper pad
-for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "PlasticBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-372.338379, -206.417206, -149.606934, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
-      v.Name = "start"
-    end
-  end
-end
---dropper1 pad
-for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "SandBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-367.665649, -210.799988, -147.40686, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
-      v.Name = "drop"
-    end
-  end
-end
---dropper2 pad
-for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "PlasticBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-378.452118, -206.417297, -149.520447, -1, 0, 0, 0, 1, 0, 0, 0, -1) then
-      v.Name = "drop2"
-    end
-  end
-end
---dropper 3 drop part
-for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "PlasticBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-387.702179, -204.417267, -149.770416, -1, 0, 0, 0, 1, 0, 0, 0, -1) then
-      v.Name = "drop3"
-    end
-  end
-end
---mega dropper drop part
-for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "PlasticBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-418.602081, -199.917236, -149.770538, -1, 0, 0, 0, 1, 0, 0, 0, -1) then
-      v.Name = "mega"
-    end
-  end
-end
---sell
-for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "WoodBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-396.965668, -12.7999935, -138.606842, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
-      v.Name = "sell"
-    end
-  end
-end
---total
-for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "Sign" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-422.965668, -10.8999929, -118.606842, 1, 0, 0, 0, 1, 0, 0, 0, 1) then
-      v.Name = "total"
-    end
-  end
-end
---ownerdoor laser1-laser 3
-for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "NeonBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-397.015686, -206.544983, -118.056839, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
-      v.Name = "ownerdoor_laser1"
-    end
-  end
-end
-for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "NeonBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-397.015686, -208.544983, -118.056839, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
-      v.Name = "ownerdoor_laser2"
-    end
-  end
-end
-for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "NeonBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-397.015686, -210.544983, -118.056839, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
-      v.Name = "ownerdoor_laser3"
-    end
-  end
-end
---ownerdoor laser button
-for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "TitaniumBlock" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-392.540649, -208.494995, -119.006844, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
-      v.Name = "ownerdoor_laserbutton"
-    end
-  end
-end
---turret gun piston
-for _,v in pairs(workspace:GetChildren()) do
-	if v.Name == "Piston" and v.ClassName == "Model" then
-		if v.PPart and v.PPart.CFrame == CFrame.new(-372.965668, -209.639099, -105.772278, 1, 0, 0, 0, 1, 0, 0, 0, 1) then
-			v.Name = "turret_gunpiston"
+	--starter dropper pad
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+	  if v.Name == "PlasticBlock" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.CFrame == CFrame.new(-372.338379, -206.417206, -149.606934, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+		  v.Name = "start"
+		end
+	  end
+	end
+	--dropper1 pad
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+	  if v.Name == "SandBlock" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.CFrame == CFrame.new(-367.665649, -210.799988, -147.40686, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+		  v.Name = "drop"
+		end
+	  end
+	end
+	--dropper2 pad
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+	  if v.Name == "PlasticBlock" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.CFrame == CFrame.new(-378.452118, -206.417297, -149.520447, -1, 0, 0, 0, 1, 0, 0, 0, -1) then
+		  v.Name = "drop2"
+		end
+	  end
+	end
+	--dropper 3 drop part
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+	  if v.Name == "PlasticBlock" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.CFrame == CFrame.new(-387.702179, -204.417267, -149.770416, -1, 0, 0, 0, 1, 0, 0, 0, -1) then
+		  v.Name = "drop3"
+		end
+	  end
+	end
+	--mega dropper drop part
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+	  if v.Name == "PlasticBlock" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.CFrame == CFrame.new(-418.602081, -199.917236, -149.770538, -1, 0, 0, 0, 1, 0, 0, 0, -1) then
+		  v.Name = "mega"
+		end
+	  end
+	end
+	--sell
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+	  if v.Name == "WoodBlock" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.CFrame == CFrame.new(-396.965668, -12.7999935, -138.606842, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+		  v.Name = "sell"
+		end
+	  end
+	end
+	--total
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+	  if v.Name == "Sign" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.CFrame == CFrame.new(-422.965668, -10.8999929, -118.606842, 1, 0, 0, 0, 1, 0, 0, 0, 1) then
+		  v.Name = "total"
+		end
+	  end
+	end
+	--ownerdoor laser1-laser 3
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+	  if v.Name == "NeonBlock" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.CFrame == CFrame.new(-397.015686, -206.544983, -118.056839, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+		  v.Name = "ownerdoor_laser1"
+		end
+	  end
+	end
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+	  if v.Name == "NeonBlock" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.CFrame == CFrame.new(-397.015686, -208.544983, -118.056839, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+		  v.Name = "ownerdoor_laser2"
+		end
+	  end
+	end
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+	  if v.Name == "NeonBlock" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.CFrame == CFrame.new(-397.015686, -210.544983, -118.056839, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+		  v.Name = "ownerdoor_laser3"
+		end
+	  end
+	end
+	--ownerdoor laser button
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+	  if v.Name == "TitaniumBlock" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.CFrame == CFrame.new(-392.540649, -208.494995, -119.006844, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+		  v.Name = "ownerdoor_laserbutton"
+		end
+	  end
+	end
+	--turret gun piston
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+		if v.Name == "Piston" and v.ClassName == "Model" then
+			if v.PPart and v.PPart.CFrame == CFrame.new(-372.965668, -209.639099, -105.772278, 1, 0, 0, 0, 1, 0, 0, 0, 1) then
+				v.Name = "turret_gunpiston"
+			end
 		end
 	end
-end
---ownerdoor spikes
-for _,v in pairs(workspace:GetChildren()) do
-  if v.Name == "Piston" and v.ClassName == "Model" then
-    if v.PPart and v.PPart.CFrame == CFrame.new(-400.667114, -172.950043, -122.606117, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
-      v.Name = "ownerdoor_spikes"
-    end
-  end
-end
+	--ownerdoor spikes
+	for _,v in pairs(workspace.Blocks:FindFirstChild(game.Players.LocalPlayer.Name):GetChildren()) do
+	  if v.Name == "Piston" and v.ClassName == "Model" then
+		if v.PPart and v.PPart.CFrame == CFrame.new(-400.667114, -172.950043, -122.606117, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+		  v.Name = "ownerdoor_spikes"
+		end
+	  end
+	end
 end
 --tpb was here
